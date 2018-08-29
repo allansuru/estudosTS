@@ -10,7 +10,7 @@ import { Comments } from './Comments';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'Allan Passos';
   comentarios: any = [];
   postA: any = [];
   postB: any = [];
@@ -18,8 +18,8 @@ export class AppComponent {
 
   constructor(private _http: Http) {
 
-
-    this.getDados();
+  
+   // this.getDados();
   }
 
   getDados() {
