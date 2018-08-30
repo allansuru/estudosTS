@@ -3,7 +3,7 @@ import { Http, Response } from '@angular/http';
 import 'rxjs/add/operator/map';
 import { Comments } from './Comments';
 
-
+// //json-server --watch db.json
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',

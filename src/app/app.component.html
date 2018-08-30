@@ -7,6 +7,11 @@
        class="status"
        [class.checked-in]="post.ativo"
        ></span> {{ post.body }}
+
+       <div class="date">
+         Data: 
+         {{ post.data ? (post.data | date) : 'Sem registro' }}
+       </div>
   </li>
 </ul>
 
